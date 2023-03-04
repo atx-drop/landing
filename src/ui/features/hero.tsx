@@ -4,7 +4,7 @@ import { Background } from '../layouts/background';
 
 const Hero = () => (
   <Background color="bg-sky-100">
-    <div className="divide-y-4 divide-black">
+    <div className="divide-y-2 divide-black">
       <div className="flex flex-col items-center justify-center gap-4 h-screen">
         {/* <Image
         className="absolute animate-spin hidden lg:block mb-20"
@@ -15,7 +15,7 @@ const Hero = () => (
       /> */}
         <Image
           className="z-10 mb-36"
-          src="/assets/images/temp-logo.png"
+          src="/assets/images/logo.png"
           alt="ATX Drop Logo"
           height="300"
           width="300"
